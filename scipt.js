@@ -59,7 +59,7 @@ function renderCards() {
     card.innerHTML = `
       <div class="flex justify-between items-start mb-3">
         <img src="${hotline.img}" alt="${hotline.name}" class="w-12 h-12 rounded-md">
-        <button class="heartBtn w-10 h-10 flex justify-center items-center rounded-full bg-pink-100 text-pink-600 text-xl">
+        <button class="heartBtn w-10 h-10 flex justify-center items-center rounded-full  text-xl">
           <i class="fa-regular fa-heart"></i>
         </button>
       </div>
