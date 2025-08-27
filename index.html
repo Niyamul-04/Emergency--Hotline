@@ -55,7 +55,33 @@
       </p>
     </section>
 
+      <!-- Main Section -->
+<section class="w-full flex flex-col lg:flex-row px-4 lg:px-16 py-8 gap-8 items-stretch bg-[#41FF6B1A]">
 
+  <!-- Left: Card Section -->
+  <div class="lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="cardContainer">
+    <!-- JS will generate cards -->
+  </div>
+
+  <!-- Right: Call History -->
+  <div class="lg:w-1/3 bg-white rounded-lg shadow-md p-4 flex flex-col">
+  <div class="flex justify-between items-center mb-4">
+  <h2 class="font-bold text-lg flex items-center gap-2">
+    <i class="fa-regular fa-clock"></i> Call History
+  </h2>
+  <button id="clearHistory" class="flex items-center gap-2 rounded-full bg-[#00A63E] px-6 py-2 text-white font-semibold">
+    Clear
+  </button>
+</div>
+
+    <ul id="historyList" class="flex-1 overflow-y-auto space-y-2">
+      <!-- JS will append call history -->
+    </ul>
+  </div>
+
+</section>
+
+    
 
 </div>
 
