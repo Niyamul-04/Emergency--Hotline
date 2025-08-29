@@ -30,16 +30,17 @@ function addCopy() {
 
 // Hotline data with images and icons
 const hotlines = [
-  { name: "Fire Service Number", number: "999", category: "Fire Service", img: "Assets/fire-service.png", icon: "fa-solid fa-fire" },
-  { name: "Police Helpline", number: "999", category: "Police", img: "Assets/police.png", icon: "fa-solid fa-shield-halved" },
-  { name: "Medical Service", number: "111", category: "Health", img: "Assets/ambulance.png", icon: "fa-solid fa-ambulance" },
-  { name: "Anti-Corruption Helpline", number: "104", category: "Govt", img: "Assets/corruption.jpeg", icon: "fa-solid fa-gavel" },
-  { name: "Bangladesh Railway Helpline", number: "106", category: "Transport", img: "Assets/Bangladesh-Railway.png", icon: "fa-solid fa-train" },
-  { name: "Disaster Management", number: "105", category: "Disaster", img: "Assets/emergency.png", icon: "fa-solid fa-earth-americas" },
-  { name: "Traffic Control", number: "107", category: "Traffic", img: "Assets/trafic.avif", icon: "fa-solid fa-car" },
-  { name: "Child Helpline", number: "108", category: "Child", img: "Assets/child.png", icon: "fa-solid fa-child" },
-  { name: "Women Helpline", number: "109", category: "Women Support", img: "Assets/brac.png", icon: "fa-solid fa-female" },
+  { name: "National Emergency (Police, Fire, Ambulance)", number: "999", category: "Emergency", img: "Assets/emergency.png", icon: "fa-solid fa-phone" },
+  { name: "Fire Service & Civil Defence", number: "102", category: "Fire Service", img: "Assets/fire-service.png", icon: "fa-solid fa-fire" },
+  { name: "Ambulance Service", number: "103", category: "Health", img: "Assets/ambulance.png", icon: "fa-solid fa-ambulance" },
+  { name: "Anti-Corruption Commission", number: "106", category: "Govt", img: "Assets/corruption.jpeg", icon: "fa-solid fa-gavel" },
+  { name: "Bangladesh Railway Helpline", number: "131", category: "Transport", img: "Assets/Bangladesh-Railway.png", icon: "fa-solid fa-train" },
+  { name: "NID (National ID) Service", number: "105", category: "Govt", img: "Assets/nid.png", icon: "fa-solid fa-id-card" },  
+  { name: "Health Call Centre (Telemedicine)", number: "16263", category: "Health", img: "Assets/health-call.png", icon: "fa-solid fa-headset" },
+  { name: "Child Helpline", number: "1098", category: "Child", img: "Assets/child.png", icon: "fa-solid fa-child" },
+  { name: "Women & Violence Helpline", number: "109", category: "Women Support", img: "Assets/brac.png", icon: "fa-solid fa-female" },
 ];
+
 
 // DOM elements
 const cardContainer = document.getElementById("cardContainer");
